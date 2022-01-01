@@ -26,6 +26,7 @@ layout
 body {
   font-family: var(--body);
   margin: 0;
+  color: var(--Very-Dark-Cyan);
 }
 
 header {
@@ -107,6 +108,50 @@ h3 {
 
 .stats-box {
   border: 1px solid magenta;
+  width: 50%;
+}
+
+.stats-box img {
+  width: 15%;
+}
+
+.stats-icon {
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+.stats-icon::before {
+  content: "";
+  background-size: 20px 20px;
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  transform: translate(0.55em, -1em);
+}
+
+.stats-icon-communities::before {
+  background-image: url(/images/icon-communities.svg);
+}
+
+.stats-icon-messages::before {
+  background-image: url(/images/icon-messages.svg);
+}
+
+.stats-icon::after {
+  font-size: 0.8rem;
+  display: block;
+  color: rgb(170, 168, 168);
+  font-weight: 400;
+  margin: 0 auto;
+  padding-left: 1.2em;
+}
+
+.stats-icon-communities::after {
+  content: "Communities Formed";
+}
+
+.stats-icon-messages::after {
+  content: "Messages Sent";
 }
 
 .container-illustrations {
