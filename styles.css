@@ -31,8 +31,10 @@ h3 {
   width: 80%;
 }
 
-.illustration img {
-  max-width: 70%;
+.container-stats {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
 }
 
 .stats-box {
@@ -54,9 +56,19 @@ h3 {
   align-items: center;
 }
 
+.illustration img {
+  max-width: 70%;
+}
+
 @media (max-width: 375px) {
   .illustration {
     display: flex;
     flex-direction: column;
+  }
+
+  .container-stats {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 }
