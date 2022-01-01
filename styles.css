@@ -1,0 +1,36 @@
+*,
+::before {
+  box-sizing: border-box;
+}
+
+/* ================
+layout 
+=================== */
+
+.header {
+  border: 1px solid magenta;
+}
+
+.container {
+  border: 1px solid magenta;
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.mockup img {
+  width: 80%;
+}
+
+.illustration img {
+  width: 50%;
+}
+
+.stats-box {
+  border: 1px solid magenta;
+}
+
+.illustration {
+  border: 1px solid magenta;
+}
