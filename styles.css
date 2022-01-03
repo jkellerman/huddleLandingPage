@@ -195,6 +195,18 @@ h3,
   max-width: 50%;
 }
 
+.illustration-flowing-conversation {
+  flex-direction: row-reverse;
+}
+
+.illustration-flowing-conversation .illustration-heading {
+  margin-left: 0;
+}
+
+.illustration-flowing-conversation .illustration-flowing-conversation-p {
+  margin-left: 0;
+}
+
 .cta-header {
   font-size: 1.5rem;
   color: var(--Very-Dark-Cyan);
@@ -227,10 +239,12 @@ footer {
 
 .container-footer img {
   width: 14em;
+  transform: translateY(1em);
 }
 
 .footer-text {
   width: 60%;
+  padding-top: 1.5em;
 }
 
 .newsletter-header {
@@ -370,6 +384,15 @@ footer {
 }
 
 @media (min-width: 1300px) {
+  .illustration-heading {
+    font-size: 2rem;
+  }
+
+  .illustration-text {
+    font-size: 1rem;
+    max-width: 40%;
+  }
+
   .footer-text {
     width: 45%;
   }
