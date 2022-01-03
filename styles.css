@@ -65,6 +65,14 @@ h3,
   border-color: var(--Pink);
   background-color: white;
   color: var(--Pink);
+  cursor: pointer;
+}
+
+.btn:hover,
+.btn:focus {
+  background-color: var(--Pink);
+  color: white;
+  transition: 0.2s;
 }
 
 /* Main content */
@@ -75,6 +83,16 @@ h3,
   background-color: var(--Pink);
   color: white;
   font-weight: 700;
+  cursor: pointer;
+}
+
+.btn-main:hover,
+.btn-main:focus,
+.subscribe-btn:hover,
+.subscribe-btn:focus {
+  background-color: var(--Light-Pink);
+  border-color: var(--Light-Pink);
+  transition: 0.2s;
 }
 
 .main-text {
@@ -288,6 +306,7 @@ footer {
   font-weight: 700;
   font-size: 1em;
   margin-top: 1em;
+  cursor: pointer;
 }
 
 .form {
