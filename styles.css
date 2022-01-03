@@ -153,6 +153,10 @@ h3,
 
 /* Illustrations */
 
+.container-illustrations {
+  width: 100%;
+}
+
 .illustration {
   display: flex;
   flex-direction: row;
@@ -204,7 +208,8 @@ h3,
   margin-left: 0;
 }
 
-.illustration-grow-together {
+.illustration-grow-together,
+.illustration-your-users {
   background-color: var(--Very-Pale-Blue);
 }
 
