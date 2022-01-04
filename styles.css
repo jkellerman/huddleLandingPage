@@ -145,17 +145,17 @@ h3,
 }
 
 .stats-icon-communities::before {
-  background-image: url(/images/icon-communities.svg);
+  background-image: url(images/icon-communities.svg);
 }
 
 .stats-icon-messages::before {
-  background-image: url(/images/icon-messages.svg);
+  background-image: url(images/icon-messages.svg);
 }
 
 .stats-icon::after {
   font-size: 0.8rem;
   display: block;
-  color: rgb(170, 168, 168);
+  opacity: 0.3;
   font-weight: 400;
   margin: 0 auto;
   padding-left: 1.2em;
@@ -322,11 +322,11 @@ footer {
 }
 
 .icon-phone::before {
-  content: url(/images/icon-phone.svg);
+  content: url(images/icon-phone.svg);
 }
 
 .icon-email::before {
-  content: url(/images/icon-email.svg);
+  content: url(images/icon-email.svg);
 }
 
 .icons,
