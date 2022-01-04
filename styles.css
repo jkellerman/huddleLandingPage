@@ -152,6 +152,10 @@ h3,
   background-image: url(images/icon-messages.svg);
 }
 
+.stats-icon-messages {
+  transform: translateX(0.15em);
+}
+
 .stats-icon::after {
   font-size: 0.8rem;
   display: block;
@@ -239,7 +243,12 @@ h3,
 
 .background-wave-bottom img {
   width: 100%;
-  transform: translateY(-10%);
+  position: relative;
+  bottom: 9px;
+}
+
+.cta {
+  margin-bottom: 8em;
 }
 
 .cta-header {
@@ -387,7 +396,7 @@ footer {
 
   .container-footer {
     flex-direction: column-reverse;
-    padding: 1em;
+    padding: 4em 1em 2em;
     font-size: 1rem;
   }
 
@@ -422,7 +431,7 @@ footer {
   }
 }
 
-@media (min-width: 1300px) {
+@media (min-width: 1000px) {
   .background-wave-top img,
   .background-wave-top-footer img {
     width: 100%;
@@ -447,7 +456,7 @@ footer {
   }
 
   .newsletter-text {
-    width: 60%;
+    width: 65%;
   }
 
   .form {
@@ -455,7 +464,7 @@ footer {
   }
 
   .input {
-    width: 70%;
+    width: 65%;
   }
 
   .subscribe-btn {
